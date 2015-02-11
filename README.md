@@ -1,2 +1,4 @@
-# frogger-gen-alg
+frogger-gen-alg
+===============
+
 Genetic algorithm Frogger solver.
