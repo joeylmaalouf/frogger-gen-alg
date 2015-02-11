@@ -5,7 +5,7 @@ import frogger
 
 
 def main(argv):
-	with open(argv[1], "r") as solfile:
+	with open("solution.txt", "r") as solfile:
 		moves = list(solfile.read()[:-1])
 		print(moves)
 		sleep(1)
