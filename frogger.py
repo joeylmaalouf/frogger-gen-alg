@@ -69,7 +69,7 @@ def main(argv):
 		data.update_player(i)
 		data.update_cars()
 		if visualize:
-			sleep(0.5)
+			sleep(0.25)
 			data.display()
 		if data.done:
 			break
